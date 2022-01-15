@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    background-color: rgb(30, 163, 108);
+    padding: 13px 14px;
+
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* position: sticky; */
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+}
+#navbar li a:hover{
+    /* font-weight: bold; */
+    color: rgb(26, 24, 24);
+}
+#introsection{
+    height: 300px;
+    padding-bottom: 40px;
+    background-color: red;
+    background: url("/static/dance.jpg")no-repeat center center/cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+#introsection div.small{
+    font-size: 27px;
+    padding: 5px;
+
+}
+#missionsection{
+    height: 300px;
+    background-color: white;
+    margin: auto;
+    width: 101%;
+}
+#missionsection h2{
+    text-align: center;
+    padding-top: 12px;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 27%;
+    margin: 13px 19px;
+    height: 209px;
+    display: inline-block;
+    background-color: white;
+}
+.card h3{
+    text-align: center;
+    margin: 3px 3px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img {
+    height: 131px;
+    margin: auto;
+    padding: auto;
+    
+}
+.card-img img{
+    height: inherit;
+    filter: invert(1);
+    border-radius: 10px;
+    margin: auto;
+    padding: auto;
+        
+}
+#sponsorsection{
+    height: 250px;
+    background-color:#c97b7b;
+}
+#sponsorsection h2{
+    text-align: center;
+    padding-top: 12px;
+}
+.logo{
+    display:inline-block;
+    margin: auto;
+    padding: auto;
+    
+    padding: 31px 81px;
+    margin: 18px 7px;
+}
+.logo-img{
+    margin: auto;
+    padding: auto;
+    align-content: center;
+    justify-content: center;
+}
+.logo-img img{
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: auto;
+    padding: auto;
+    align-content: center;
+    justify-content: center;
+}
+#footer{
+    height: 70px;
+    background-color: wheat;   
+}
+.footercon{
+    padding: 22px 384px;
+    font-weight: bold;
+}
+.abhead h3 p{
+    align-items: center;
+    justify-content: center;
+    margin:  9px 380px;
+    padding: 15px 157px;
+    font-size: 46px;
+    
+}
+.abhead-img img{
+    height: 374px;
+    width: 498px;
+    margin: 14px 150px;
+    padding: 13px 150px;
+}
+.abhead p{
+    justify-content: center;
+    align-items: center;
+    margin: 4px 18px ;
+}
+.srhead p{
+    align-items: center;
+    justify-content: center;
+    margin:  9px 380px;
+    font-size: 46px;
+    padding: 15px 157px;
+}
+.srhead-box{
+    display:inline-block;
+    margin: 22px 129px ;
+    border: 2px solid black;
+    width: 302px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+.srhead-box h3{
+        margin: 9px 75px ;
+        font-size: 23px;
+}
+.sr-box img{
+    height: 201px;
+    width: 302px;
+}
+.cnhead{
+    display: flex;
+    flex-direction: column;
+    
+    width: 90%;
+    height: 90%;
+    z-index: -1;
+    opacity: 0.8;
+    
+}
+.cnhead h3{
+    margin: 13px 336px ;
+    padding: 11px 179px;
+    font-size: 23px;
+}
+.cnhead form{
+    display: flex;
+    flex-direction: column;  
+    background: url("/static/cnimg.jpg") no-repeat  center center/cover;
+}
+.myForm input{
+    width: 47%;
+    height: 34%;
+    margin: 12px 302px;
+    padding: 7px 14px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+   
+}
+.btn{
+    margin: 2px 542px;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    border-radius: 12px;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+

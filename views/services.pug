@@ -1,0 +1,21 @@
+extends  base.pug
+
+block scripts
+    script
+       include ../static/index.js
+
+block style  
+    style 
+        include ../static/style.css
+
+block content      
+        div.srhead
+          p  Services  
+        div.srhead-box
+            h3 Online Classes
+            div.sr-box
+              img(src="/static/srimg1.jpg", alt="")
+        div.srhead-box
+            h3 Offline Classes
+            div.sr-box
+              img(src="/static/srimg2.jpg", alt="")

@@ -1,0 +1,22 @@
+extends  base.pug
+
+block scripts
+    script
+        include ../static/index.js
+
+block style  
+    style 
+        include ../static/style.css
+
+block content      
+    div.cnhead
+        //- div.cnhead-img
+        //-     img(src="/static/cnimg.jpg" alt="")
+        h3 Contact Us
+        form(action="/contact" method="post" class="myForm")  
+            input(type="text" class="myInput" name="name" placeholder="Enter your Name")
+            input(type="phone" class="myInput" name="phone" placeholder="Enter your Phone No.")
+            input(type="email" class="myInput" name="email" placeholder="Enter your Email")
+            input(type="city" class="myInput" name="city" placeholder="Your City")
+        button(class="btn") 
+            | Submit     
